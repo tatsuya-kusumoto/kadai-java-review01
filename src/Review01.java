@@ -10,7 +10,8 @@ public class Review01 {
     }
 
     public static int tax(int money) {
-        int result = money / 10;
+        double taxRate = 0.1; // 税率(10%)
+        int result = (int) (money * taxRate);
         return result;
     }
 
